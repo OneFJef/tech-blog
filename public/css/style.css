@@ -1,0 +1,16 @@
+:root {
+    --brown: #270e0e;
+    --yellow: #deedd8;
+    --grey: #a09f9f;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: var(--brown);
+  }
