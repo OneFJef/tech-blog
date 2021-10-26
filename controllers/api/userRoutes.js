@@ -1,10 +1,17 @@
 const router = require('express').Router();
+const { READUNCOMMITTED } = require('sequelize/types/lib/table-hints');
 const { User } = require('../../models');
 
-// POST '/signup' create new account
+// GET '/:id' find user and fetch all user post (pagination)
 
-// POST '/login' login page
+// UPDATE '/:id' update user password
 
-// POST '/logout' logout page
+// 
 
 module.exports = router;
+
+// Create
+// Read One
+// Read All
+// Update
+// Delete

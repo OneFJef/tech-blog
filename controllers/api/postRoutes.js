@@ -2,7 +2,7 @@ const router = require('express').Router();
 const { Post } = require('../../models');
 const withAuth = require('../../utils/auth');
 
-// POST '/' (check login)
+// POST '/:id' (check login)
 
 // UPDATE '/:id' (check login)
 
